@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="sal.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Website</title>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- header -->
+    <header>
+      <a href="#" class="logo">Design Style</a>
+      <div class="toggle" onClick='toggleClassName()'></div>
+    </header>
+    <!-- sidebar -->
+    <div class="sidebar">
+      <ul>
+        <li><a href="#" onClick='toggleClassName()'>Home</a></li>
+        <li><a href="#about" onClick='toggleClassName()'>About</a></li>
+        <li><a href="#services" onClick='toggleClassName()'>Services</a></li>
+        <li><a href="#client" onClick='toggleClassName()'>Clients</a></li>
+        <li><a href="#testimonials" onClick='toggleClassName()'>Testimonials</a></li>
+        <li><a href="#team"onClick='toggleClassName()'>Team</a></li>
+        <li><a href="#contact" onClick='toggleClassName()'>Contact</a></li>
+      </ul>
+    </div>
+    <!-- banner -->
+    <div class="banner" id="banner">
+      <img src="./images/people-discussion-5069845_1920.jpg" alt="">
+      <div class="content" data-sal="slide-left"
+      data-sal-duration="500">
+        <h2 class="heading">Design Systems</h2>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellendus sequi architecto autem, ad aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, explicabo!
+        </p>
+      </div>
+    </div>
+  <!-- about -->
+  <section class="about" id="about">
+    <div class="content-box">
+      <h2 class="heading">Who We Are</h2>
+      <p class='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa inventore porro, quos neque dignissimos nisi quisquam ratione sed exercitationem sint, quaerat maxime, iusto distinctio sequi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda omnis explicabo, laboriosam numquam esse consequatur tenetur praesentium, minima laborum.<br><br> magni est ipsum veniam ad. Dolorum iusto nostrum sed facere obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam qui, eveniet aut quas repellendus eligendi distinctio praesentium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, beatae. </p>
+    </div>
+    <div class="img-box"></div>
+  </section>
+  <!-- services -->
+  <section class="services" id="services">
+    <h2 class="heading" data-sal="slide-right" data-sal-duration="500">Our Services</h2>
+    <p class="text" data-sal="slide-left" data-sal-duration="1000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quaerat error laudantium veniam impedit odio rerum illum maxime et, id quia iste repudiandae ex ad omnis? Ab dolorum quas ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate laborum blanditiis maiores! Aperiam quos ipsum voluptatibus, nemo placeat adipisci.</p>
+    <div class="container">
+      <div class="service-box" data-sal="slide-right" data-sal-duration="500">
+        <div>
+          <img src="./images/icon1.png" alt="">
+          <h2>Web Design</h2>
+        </div>
+      </div>
+      <div class="service-box" data-sal="slide-up" data-sal-duration="500">
+        <div>
+          <img src="./images/icon2.png" alt="">
+          <h2>Web Development</h2>
+        </div>
+      </div>
+      <div class="service-box" data-sal="slide-left" data-sal-duration="500">
+        <div>
+          <img src="./images/icon3.png" alt="">
+          <h2>Product Branding</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- technologies -->
+  <section class="technology" id="technolody">
+    <div class="content-box" data-sal="slide-right" data-sal-duration="500">
+      <h2 class='heading'>We use the newest and best technology</h2>
+      <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste dignissimos quia cumque corrupti nemo veritatis perferendis et maxime, optio harum officia tenetur maiores aliquid consequatur ab dolore possimus vero voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, excepturi. Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="img-box2" data-sal="slide-left" data-sal-duration="500">
+      <img src="./images/tech.png" alt="">
+    </div>
+  </section>
+
+  <!-- client -->
+  <section class="client" id="client">
+    <h2 class='heading' data-sal="slide-right" data-sal-duration="500">Our Clients</h2>
+    <p class="text" data-sal="slide-left" data-sal-duration="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cumque sequi eius placeat vero quod accusantium. Mollitia, deleniti culpa corporis adipisci beatae corrupti qui doloribus vero voluptatibus enim minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, atque.</p>
+    <div class="img-box3">
+      <img src="./images/brand1.png" alt="">
+      <img src="./images/brand2.png" alt="">
+      <img src="./images/brand3.png" alt="">
+      <img src="./images/brand4.png" alt="">
+    </div>
+  </section>
+
+  <!-- testimonies -->
+
+  <section class="testimonials" id="testimonials">
+    <h2 class="heading">What our Clients say</h2>
+    <div class="container">
+      <div class="content-box" data-sal="slide-right" data-sal-duration="500">
+        <div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat eius quas consequuntur eveniet, officia ut quo quasi! Tempore nihil temporibus.</p><br>
+          <h3>Jonathan A. Parks</h3>
+        </div>
+      </div>
+      <div class="content-box" data-sal="slide-left" data-sal-duration="500">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, reiciendis iusto vero magni consequuntur distinctio dignissimos et asperiores.</p>
+          <br>
+          <h3>Iglesias Morenda</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- our team -->
+
+  <section class='team' id="team">
+    <h2 class="heading" data-sal="slide-left" data-sal-duration="500">Our Team</h2>
+    <p class="text" data-sal="slide-right" data-sal-duration="500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, velit dignissimos accusantium asperiores, quo praesentium harum quas nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, perferendis.</p>
+    <div class="container">
+      <div class="team-box">
+        <div class="box">
+          <div class="imgBx">
+            <img src="./images/1.jpg" alt="">
+          </div>
+          <div class="content">
+            <h2>Alanna Smith<br><span>CEO & Founder</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="team-box">
+        <div class="box">
+          <div class="imgBx">
+            <img src="./images/2.jpg" alt="">
+          </div>
+          <div class="content">
+            <h2>Mark Grueber<br><span>CFO</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="team-box">
+        <div class="box">
+          <div class="imgBx">
+            <img src="./images/3.jpg" alt="">
+          </div>
+          <div class="content">
+            <h2>Adam Wysocki<br><span>Tech Operations</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="team-box">
+        <div class="box">
+          <div class="imgBx">
+            <img src="./images/4.jpg" alt="">
+          </div>
+          <div class="content">
+            <h2>Ginger Sobranowicz<br><span>HR</span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <section class="contact" id="contact">
+    <div>
+      <h2 class="heading" data-sal="slide-left" data-sal-duration="500">Contact Us</h2>
+      <p class="text" data-sal="slide-right" data-sal-duration="500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium maxime, praesentium dolor hic recusandae ipsum quia corrupti non inventore sit eligendi.</p>
+    </div>
+  </section>
+  <section class="about">
+    <div class="content-box redBg">
+      <div class="form">
+        <div class="inputBx">
+          <input type="text" placeholder="Full Name">
+        </div>
+        <div class="inputBx">
+          <input type="text" placeholder="Email">
+        </div>
+        <div class="inputBx">
+          <input type="text" placeholder="Mobile No.">
+        </div>
+        <div class="inputBx">
+          <textarea cols="30" rows="5" placeholder="Write your message here...."></textarea>
+        </div>
+       <div class="inputBx btn">
+        <button type="submit">Send</button>
+      </div>
+      </div>
+      </div>
+    <div class="imgBx2"></div>
+  </section>
+
+  <!-- footer -->
+
+  <section class='footer'>
+    <p class="text">Developed by Jo Anna Mollman</p>
+    <ul>
+      <p class="text">Follow Us On: </p>
+      <li><a href="https://twitter.com/" target="_blank"><img src="./images/twitter.png" alt=""></a></li>
+      <li><a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt=""></a></li>
+      <li><a href="https://linkedin.com/" target="_blank"><img src="./images/linkedin.png" alt=""></a></li>
+    </ul>
+  </section>
+  </div>
+
+  <script type="text/javascript" src="sal.js"></script>
+  <script type="text/javascript">
+
+sal({
+  threshold: 1,
+  once: false,
+});
+
+    function toggleClassName() {
+      let sidebar = document.querySelector('.sidebar');
+      let wrapper = document.querySelector('.wrapper');
+      let toggle = document.querySelector('.toggle');
+      sidebar.classList.toggle('active');
+      wrapper.classList.toggle('active');
+      toggle.classList.toggle('active');
+}
+  
+  window.addEventListener('scroll', () => {
+    let header = document.querySelector('header');
+    header.classList.toggle('sticky', window.scrollY > 0)
+  })
+</script>
+</body>
+</html>
