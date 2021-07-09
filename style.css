@@ -12,7 +12,7 @@ body {
   background-color: #12222d;
   overflow-x: hidden;
 }
-.wrapper {
+.wrapper {l
   position: relative;
   transition: 1s ease;
   left: 0;
