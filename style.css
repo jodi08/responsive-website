@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 body {
@@ -12,7 +12,7 @@ body {
   background-color: #12222d;
   overflow-x: hidden;
 }
-.wrapper {l
+.wrapper {
   position: relative;
   transition: 1s ease;
   left: 0;
@@ -30,7 +30,7 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 10000;
-  transition: .5s;
+  transition: 0.5s;
 }
 header.sticky {
   padding: 20px 100px;
@@ -48,13 +48,13 @@ header .toggle {
   position: relative;
   width: 36px;
   height: 28px;
-  background: url('./images/toggle.png');
+  background: url("./images/toggle.png");
   background-size: cover;
   cursor: pointer;
   z-index: 100;
 }
 header .toggle.active {
-  background: url('./images/close.png');
+  background: url("./images/close.png");
   background-size: cover;
 }
 .banner {
@@ -74,7 +74,7 @@ header .toggle.active {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.50
+  opacity: 0.5;
 }
 .banner .content {
   position: relative;
@@ -100,7 +100,7 @@ header .toggle.active {
   align-items: center;
   justify-content: center;
   z-index: 100;
-  transition: 1s ease; 
+  transition: 1s ease;
 }
 .sidebar.active {
   right: 0;
@@ -126,13 +126,11 @@ header .toggle.active {
   width: 100%;
   background-color: #162c3b;
   display: flex;
-
 }
 .about .content-box {
   background-color: #162c3b;
   padding: 100px;
   width: 50%;
-
 }
 .heading {
   color: #fff;
@@ -150,7 +148,7 @@ header .toggle.active {
 .about .img-box {
   width: 50%;
   background-color: #eee;
-  background-image: url('./images/social-media-3846597_1280.png');
+  background-image: url("./images/social-media-3846597_1280.png");
   background-size: cover;
   background-position: center;
 }
@@ -158,14 +156,13 @@ header .toggle.active {
   background-color: #12222d;
   text-align: center;
   padding: 100px;
-  
 }
 .container {
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
-  align-items: center; 
+  align-items: center;
   flex-wrap: wrap;
 }
 .container .service-box {
@@ -182,12 +179,12 @@ header .toggle.active {
 .container .service-box img {
   max-width: 100px;
 }
-.container  .service-box h2 {
+.container .service-box h2 {
   font-weight: 500px;
   font-size: 20px;
   letter-spacing: 1px;
 }
-.technology{
+.technology {
   background-color: #3f8ffc;
   width: 100%;
   padding: 100px;
@@ -201,10 +198,10 @@ header .toggle.active {
 }
 .technology .img-box2 {
   max-width: 250px;
-} 
+}
 .technology .img-box2 img {
   max-width: 100%;
-  filter: invert(1)
+  filter: invert(1);
 }
 .client {
   padding: 100px;
@@ -227,7 +224,7 @@ header .toggle.active {
 .client .img-box3 img:hover {
   opacity: 1;
 }
-.testimonials{
+.testimonials {
   padding: 100px;
   background-color: #12222d;
   text-align: center;
@@ -279,7 +276,7 @@ header .toggle.active {
   padding: 5px;
   background-color: #fff;
 }
- .team .team-box .box .imgBx {
+.team .team-box .box .imgBx {
   position: relative;
   width: 100%;
   height: 300px;
@@ -293,7 +290,7 @@ header .toggle.active {
   height: 100%;
   object-fit: cover;
 }
- .team .team-box .box .content {
+.team .team-box .box .content {
   padding: 15px 0;
 }
 .team .team-box .box .content h2 {
@@ -303,20 +300,20 @@ header .toggle.active {
 .team .team-box .box .content h2 span {
   font-size: 16px;
   font-weight: 300;
-} 
+}
 .contact {
   padding: 100px;
   text-align: center;
-  background-color: #162c3b;;
+  background-color: #162c3b;
 }
 .imgBx2 {
   width: 50%;
-  background-image: url('./images/contact-us-2355449_1920.jpg');
+  background-image: url("./images/contact-us-2355449_1920.jpg");
   background-size: cover;
   background-position: center;
 }
 .redBg {
-  background-image: url('./images/red.jpg') !important;
+  background-image: url("./images/red.jpg") !important;
   background-size: cover;
   background-position: center;
 }
@@ -368,7 +365,7 @@ header .toggle.active {
   justify-content: center;
 }
 .footer ul li {
-  list-style: none
+  list-style: none;
 }
 .footer ul li a {
   text-decoration: none;
@@ -379,12 +376,12 @@ header .toggle.active {
   max-width: 20px;
   filter: invert(1);
 }
-@media (max-width: 991px){
+@media (max-width: 991px) {
   header,
   header.sticky {
     padding: 20px 50px;
-    }
-  .sidebar ul li a{
+  }
+  .sidebar ul li a {
     font-size: 24px;
   }
   .banner {
@@ -428,7 +425,7 @@ header .toggle.active {
   .technology .img-box2 {
     margin-top: 40px;
   }
-  
+
   .client {
     padding: 50px;
   }
@@ -461,6 +458,4 @@ header .toggle.active {
   .footer ul {
     margin-top: 20px;
   }
-  
 }
-
