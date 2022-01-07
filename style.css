@@ -64,7 +64,6 @@ header .toggle.active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3475ca;
 }
 
 .banner img {
